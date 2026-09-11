@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+@source '../**/*.jsx';
+
+@theme {
+    --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+    --color-unpam-50: #e3f2fd;
+    --color-unpam-100: #bbdefb;
+    --color-unpam-200: #90caf9;
+    --color-unpam-300: #64b5f6;
+    --color-unpam-400: #42a5f5;
+    --color-unpam-500: #2196f3;
+    --color-unpam-600: #1e88e5;
+    --color-unpam-700: #1976d2;
+    --color-unpam-800: #1565c0;
+    --color-unpam-900: #0d47a1;
+    --color-unpam-bg: #eef5fb;
+    --color-lld-50: #e3f2fd;
+    --color-lld-100: #bbdefb;
+    --color-lld-500: #2196f3;
+    --color-lld-700: #1976d2;
+    --color-lld-bg: #eef5fb;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: #eef5fb;
+    color: #1e293b;
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+html.dark body {
+    background: #050d24;
+    color: #f1f5f9;
+}
+
+@import './accessibility.css';
+
+@keyframes shrinkToast {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0%;
+    }
+}
+

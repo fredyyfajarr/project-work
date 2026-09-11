@@ -1,0 +1,118 @@
+/* =========================================================
+   ACCESSIBILITY STYLES (LLD UNPAM Inklusif & Ramah Disabilitas)
+   ========================================================= */
+
+/* Mode Kontras Tinggi (High Contrast: Black & Yellow / Cyan) */
+html.acc-high-contrast {
+    background-color: #000000 !important;
+    color: #ffff00 !important;
+}
+
+html.acc-high-contrast body,
+html.acc-high-contrast main,
+html.acc-high-contrast nav,
+html.acc-high-contrast footer,
+html.acc-high-contrast section,
+html.acc-high-contrast div:not(.acc-control-ignore),
+html.acc-high-contrast aside {
+    background-color: #000000 !important;
+    color: #ffff00 !important;
+    border-color: #ffff00 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+html.acc-high-contrast h1,
+html.acc-high-contrast h2,
+html.acc-high-contrast h3,
+html.acc-high-contrast h4,
+html.acc-high-contrast h5,
+html.acc-high-contrast h6,
+html.acc-high-contrast p,
+html.acc-high-contrast span,
+html.acc-high-contrast strong,
+html.acc-high-contrast li,
+html.acc-high-contrast label {
+    color: #ffff00 !important;
+}
+
+html.acc-high-contrast a,
+html.acc-high-contrast button:not(.acc-control-ignore) {
+    color: #00ffff !important;
+    text-decoration: underline !important;
+    text-underline-offset: 3px !important;
+}
+
+html.acc-high-contrast input,
+html.acc-high-contrast textarea,
+html.acc-high-contrast select {
+    background-color: #111111 !important;
+    color: #ffffff !important;
+    border: 2px solid #ffff00 !important;
+}
+
+/* Monokrom / Grayscale */
+html.acc-grayscale {
+    filter: grayscale(100%) !important;
+}
+
+/* Mode Gelap / Invert Kontras Lembut */
+html.acc-invert {
+    filter: invert(90%) hue-rotate(180deg) !important;
+}
+
+html.acc-invert img,
+html.acc-invert video,
+html.acc-invert svg {
+    filter: invert(100%) hue-rotate(180deg) !important;
+}
+
+/* Spasi Teks Renggang (Membantu Disleksia & Keterbacaan) */
+html.acc-text-spacing body,
+html.acc-text-spacing p,
+html.acc-text-spacing span,
+html.acc-text-spacing a,
+html.acc-text-spacing li,
+html.acc-text-spacing div:not(.acc-control-ignore) {
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.18em !important;
+    line-height: 1.9 !important;
+}
+
+/* Font Ramah Disleksia */
+html.acc-dyslexia,
+html.acc-dyslexia body,
+html.acc-dyslexia * {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Arial Rounded MT Bold', 'Verdana', sans-serif !important;
+    letter-spacing: 0.04em !important;
+}
+
+/* Sorot Tautan & Tombol */
+html.acc-highlight-links a,
+html.acc-highlight-links button:not(.acc-control-ignore) {
+    text-decoration: underline !important;
+    text-decoration-thickness: 3px !important;
+    text-underline-offset: 4px !important;
+    background-color: rgba(253, 224, 71, 0.4) !important;
+    color: #0f172a !important;
+    font-weight: 700 !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    border-radius: 4px !important;
+}
+
+/* Kursor Besar Kontras */
+html.acc-big-cursor,
+html.acc-big-cursor * {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='38' height='38' viewBox='0 0 24 24' fill='%23ffd600' stroke='%23000000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 3l7 18 3-7 7-3L3 3z'/%3E%3C/svg%3E"), default !important;
+}
+
+/* Pengecualian Khusus Panel Aksesibilitas agar selalu tampil normal & mudah dikontrol */
+.acc-control-panel {
+    filter: none !important;
+}
+
+.acc-control-panel * {
+    letter-spacing: normal;
+    word-spacing: normal;
+}
