@@ -37,7 +37,7 @@ Dokumen pelacakan fitur dan hasil evolusi dari versi lama (Laravel 10 Blade) men
 - [x] Kelola Jadwal Perkuliahan (Unggah jadwal PDF/gambar per semester, preview, unduh terproteksi IDOR)
 - [x] Kelola Luaran & Prestasi (Unggah bukti sertifikat/foto, status validasi pending/diterima/ditolak)
 - [x] Pengajuan Beasiswa (Input data rekening bank, upload cover buku tabungan, pantau status verifikasi)
-- [x] Kelola Aspirasi Mahasiswa (Kirim keluhan/masukan, pantau status Diajukan/Diproses/Selesai/Ditolak, dan lihat tanggapan resmi dari pihak LLD)
+- [x] Kelola Aspirasi Mahasiswa (Kirim keluhan/masukan, pantau status Diajukan/Diproses/Selesai, dan lihat tanggapan resmi dari pihak LLD)
 
 ---
 
@@ -57,7 +57,7 @@ Dokumen pelacakan fitur dan hasil evolusi dari versi lama (Laravel 10 Blade) men
 - [x] Pengelolaan Data Alumni & Tracer Study (Tabel respon tracer, filter jurusan/status kerja, ekspor data CSV)
 - [x] Monitoring Akademik (Monitoring status: Mahasiswa Aktif, Lulus, Terlambat $\ge$ Semester 8, Bermasalah IPK $<$ 2.75)
 - [x] **Monitoring Jadwal & Kepatuhan Mahasiswa (KAK 8.1.2.a)** (Tab file terunggah, tab daftar mahasiswa belum unggah jadwal, metrik % kepatuhan, dan tombol kontak langsung WhatsApp)
-- [x] **Monitoring & Tindak Lanjut Aspirasi (KAK 8.1.2.b)** (Tabel aspirasi mahasiswa & alumni, modal berikan tanggapan resmi LLD, dan pembaruan status: Diajukan, Diproses, Selesai, Ditolak)
+- [x] **Monitoring & Tindak Lanjut Aspirasi (KAK 8.1.2.b)** (Tabel aspirasi mahasiswa & alumni, modal berikan tanggapan resmi LLD, dan pembaruan status: Diajukan, Diproses, Selesai)
 - [x] Verifikasi Beasiswa (Verifikasi berkas rekening & buku tabungan oleh Admin/Kabid Viktor, catatan revisi, ekspor CSV)
 - [x] Validasi Luaran & Prestasi (Verifikasi bukti sertifikat mahasiswa oleh Admin/Staff, preview/import massal Excel)
 - [x] Kelola Laporan Terpusat (5 jenis laporan: Mahasiswa, Akademik, Monitoring, Luaran, Nomor Surat via CSV Stream & PDF)

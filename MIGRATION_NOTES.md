@@ -55,7 +55,7 @@ Dokumentasi historis dan teknis proses migrasi dari versi Kerja Praktik terdahul
 - **KAK 8.1.2.a (Monitoring Kepatuhan Jadwal Mahasiswa)**:
   - Dashboard monitoring jadwal kini dilengkapi tab pemisah antara jadwal yang sudah terunggah dengan daftar mahasiswa aktif yang belum mengunggah, dilengkapi indikator persentase kepatuhan dan tombol kontak WhatsApp langsung.
 - **KAK 8.1.2.b (Monitoring & Tindak Lanjut Aspirasi)**:
-  - Administrator dan staf LLD dapat memberikan tanggapan resmi dan mengubah status aspirasi (`Diajukan`, `Diproses`, `Selesai`, `Ditolak`). Tanggapan ditampilkan secara transparan pada portal mahasiswa dan alumni.
+  - Administrator dan staf LLD dapat memberikan tanggapan resmi dan mengubah status aspirasi (`Diajukan`, `Diproses`, `Selesai`). Tanggapan ditampilkan secara transparan pada portal mahasiswa dan alumni.
 
 ---
 

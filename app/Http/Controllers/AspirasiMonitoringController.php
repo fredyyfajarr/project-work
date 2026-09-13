@@ -30,7 +30,7 @@ class AspirasiMonitoringController extends Controller
     public function updateStatus(Request $request, int $id): RedirectResponse
     {
         $validated = $request->validate([
-            'status' => ['required', 'string', 'in:Diajukan,Dikirim,Diproses,Selesai,Ditolak'],
+            'status' => ['required', 'string', 'in:Diajukan,Dikirim,Diproses,Selesai'],
             'tanggapan' => ['nullable', 'string', 'max:2000'],
         ]);
 

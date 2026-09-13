@@ -175,8 +175,7 @@ export default function Index({ aspirasi = {}, filters = {} }) {
                                 >
                                     <option value="Diajukan">Diajukan / Baru</option>
                                     <option value="Diproses">Diproses (Sedang Ditindaklanjuti LLD)</option>
-                                    <option value="Selesai">Selesai (Sudah Diberikan Solusi / Selesai)</option>
-                                    <option value="Ditolak">Ditolak (Tidak Dapat Diproses)</option>
+                                    <option value="Selesai">Selesai (Sudah Diberikan Tanggapan / Solusi)</option>
                                 </select>
                             </div>
 
