@@ -39,3 +39,14 @@ Homestead.yaml
 Thumbs.db
 ~$*
 *.tmp
+
+# Berkas Dokumen Privat Tim (Jangan di-push ke GitHub publik)
+*.docx
+*.pdf
+/public/assets/salsa_cover*
+/public/assets/COVER_*
+/public/assets/logo_yumina*
+/public/assets/logo_lld_hd*
+/public/assets/logo_unpam_hd*
+template_*
+preview_page.html
